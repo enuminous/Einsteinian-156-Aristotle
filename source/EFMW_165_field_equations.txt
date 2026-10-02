@@ -1,0 +1,1010 @@
+EFMW — Master Set of Field Equations for All 165 Triplets
+Channels: E (gravity), M (EM gauge), S (symmetry gauge), F/W/T/I/R/H/P/A (scalar sectors)
+Notation: G_{μν} Einstein tensor, g_{μν} metric, Λ cosmological constant, κ couplings.
+          F_{μν}, S_{μν} gauge strengths; J^ν currents; ℜ symbolically denotes curvature scalars/invariants.
+          All λ, κ are phenomenological couplings; T_{μν}^{(int)} collects mixed interaction stress.
+
+=== Triplet ('E', 'F', 'M') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_F ∂_ν φ_F - (1/2) g_{μν} (∂ φ_F)^2 - g_{μν} V(φ_F) + F_{μα} F_ν^{ α} - (1/4) g_{μν} F_{αβ} F^{αβ} + T_{μν}^{(int)} )
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_ME J_{E}^ν + κ_MF φ_F ∇^ν φ_F + κ_MEF Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FE ℜ + λ_FM F_{αβ}F^{αβ} + λ_FEM ℜ F_{αβ}F^{αβ} = 0
+
+=== Triplet ('E', 'F', 'W') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_F ∂_ν φ_F - (1/2) g_{μν} (∂ φ_F)^2 - g_{μν} V(φ_F) + ∂_μ φ_W ∂_ν φ_W - (1/2) g_{μν} (∂ φ_W)^2 - g_{μν} V(φ_W) + T_{μν}^{(int)} )
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FE ℜ + λ_FW φ_W + λ_FEW ℜ φ_W = 0
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WE ℜ + λ_WF φ_F + λ_WEF ℜ φ_F = 0
+
+=== Triplet ('E', 'F', 'T') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_F ∂_ν φ_F - (1/2) g_{μν} (∂ φ_F)^2 - g_{μν} V(φ_F) + ∂_μ φ_T ∂_ν φ_T - (1/2) g_{μν} (∂ φ_T)^2 - g_{μν} V(φ_T) + T_{μν}^{(int)} )
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FE ℜ + λ_FT φ_T + λ_FET ℜ φ_T = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TE ℜ + λ_TF φ_F + λ_TEF ℜ φ_F = 0
+
+=== Triplet ('E', 'F', 'I') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_F ∂_ν φ_F - (1/2) g_{μν} (∂ φ_F)^2 - g_{μν} V(φ_F) + ∂_μ φ_I ∂_ν φ_I - (1/2) g_{μν} (∂ φ_I)^2 - g_{μν} V(φ_I) + T_{μν}^{(int)} )
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FE ℜ + λ_FI φ_I + λ_FEI ℜ φ_I = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IE ℜ + λ_IF φ_F + λ_IEF ℜ φ_F = 0
+
+=== Triplet ('E', 'F', 'R') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_F ∂_ν φ_F - (1/2) g_{μν} (∂ φ_F)^2 - g_{μν} V(φ_F) + ∂_μ φ_R ∂_ν φ_R - (1/2) g_{μν} (∂ φ_R)^2 - g_{μν} V(φ_R) + T_{μν}^{(int)} )
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FE ℜ + λ_FR φ_R + λ_FER ℜ φ_R = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RE ℜ + λ_RF φ_F + λ_REF ℜ φ_F = 0
+
+=== Triplet ('E', 'F', 'S') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_F ∂_ν φ_F - (1/2) g_{μν} (∂ φ_F)^2 - g_{μν} V(φ_F) + S_{μα} S_ν^{ α} - (1/4) g_{μν} S_{αβ} S^{αβ} + T_{μν}^{(int)} )
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SE J_{E}^ν + κ_SF φ_F ∇^ν φ_F + κ_SEF Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FE ℜ + λ_FS S_{αβ}S^{αβ} + λ_FES ℜ S_{αβ}S^{αβ} = 0
+
+=== Triplet ('E', 'F', 'H') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_F ∂_ν φ_F - (1/2) g_{μν} (∂ φ_F)^2 - g_{μν} V(φ_F) + ∂_μ φ_H ∂_ν φ_H - (1/2) g_{μν} (∂ φ_H)^2 - g_{μν} V(φ_H) + T_{μν}^{(int)} )
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FE ℜ + λ_FH φ_H + λ_FEH ℜ φ_H = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HE ℜ + λ_HF φ_F + λ_HEF ℜ φ_F = 0
+
+=== Triplet ('E', 'F', 'P') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_F ∂_ν φ_F - (1/2) g_{μν} (∂ φ_F)^2 - g_{μν} V(φ_F) + ∂_μ φ_P ∂_ν φ_P - (1/2) g_{μν} (∂ φ_P)^2 - g_{μν} V(φ_P) + T_{μν}^{(int)} )
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FE ℜ + λ_FP φ_P + λ_FEP ℜ φ_P = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PE ℜ + λ_PF φ_F + λ_PEF ℜ φ_F = 0
+
+=== Triplet ('E', 'F', 'A') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_F ∂_ν φ_F - (1/2) g_{μν} (∂ φ_F)^2 - g_{μν} V(φ_F) + ∂_μ φ_A ∂_ν φ_A - (1/2) g_{μν} (∂ φ_A)^2 - g_{μν} V(φ_A) + T_{μν}^{(int)} )
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FE ℜ + λ_FA φ_A + λ_FEA ℜ φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AE ℜ + λ_AF φ_F + λ_AEF ℜ φ_F = 0
+
+=== Triplet ('E', 'M', 'W') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( F_{μα} F_ν^{ α} - (1/4) g_{μν} F_{αβ} F^{αβ} + ∂_μ φ_W ∂_ν φ_W - (1/2) g_{μν} (∂ φ_W)^2 - g_{μν} V(φ_W) + T_{μν}^{(int)} )
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_ME J_{E}^ν + κ_MW φ_W ∇^ν φ_W + κ_MEW Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WE ℜ + λ_WM F_{αβ}F^{αβ} + λ_WEM ℜ F_{αβ}F^{αβ} = 0
+
+=== Triplet ('E', 'M', 'T') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( F_{μα} F_ν^{ α} - (1/4) g_{μν} F_{αβ} F^{αβ} + ∂_μ φ_T ∂_ν φ_T - (1/2) g_{μν} (∂ φ_T)^2 - g_{μν} V(φ_T) + T_{μν}^{(int)} )
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_ME J_{E}^ν + κ_MT φ_T ∇^ν φ_T + κ_MET Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TE ℜ + λ_TM F_{αβ}F^{αβ} + λ_TEM ℜ F_{αβ}F^{αβ} = 0
+
+=== Triplet ('E', 'M', 'I') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( F_{μα} F_ν^{ α} - (1/4) g_{μν} F_{αβ} F^{αβ} + ∂_μ φ_I ∂_ν φ_I - (1/2) g_{μν} (∂ φ_I)^2 - g_{μν} V(φ_I) + T_{μν}^{(int)} )
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_ME J_{E}^ν + κ_MI φ_I ∇^ν φ_I + κ_MEI Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IE ℜ + λ_IM F_{αβ}F^{αβ} + λ_IEM ℜ F_{αβ}F^{αβ} = 0
+
+=== Triplet ('E', 'M', 'R') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( F_{μα} F_ν^{ α} - (1/4) g_{μν} F_{αβ} F^{αβ} + ∂_μ φ_R ∂_ν φ_R - (1/2) g_{μν} (∂ φ_R)^2 - g_{μν} V(φ_R) + T_{μν}^{(int)} )
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_ME J_{E}^ν + κ_MR φ_R ∇^ν φ_R + κ_MER Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RE ℜ + λ_RM F_{αβ}F^{αβ} + λ_REM ℜ F_{αβ}F^{αβ} = 0
+
+=== Triplet ('E', 'M', 'S') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( F_{μα} F_ν^{ α} - (1/4) g_{μν} F_{αβ} F^{αβ} + S_{μα} S_ν^{ α} - (1/4) g_{μν} S_{αβ} S^{αβ} + T_{μν}^{(int)} )
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_ME J_{E}^ν + κ_MS J_{S}^ν + κ_MES Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SE J_{E}^ν + κ_SM J_{M}^ν + κ_SEM Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+
+=== Triplet ('E', 'M', 'H') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( F_{μα} F_ν^{ α} - (1/4) g_{μν} F_{αβ} F^{αβ} + ∂_μ φ_H ∂_ν φ_H - (1/2) g_{μν} (∂ φ_H)^2 - g_{μν} V(φ_H) + T_{μν}^{(int)} )
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_ME J_{E}^ν + κ_MH φ_H ∇^ν φ_H + κ_MEH Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HE ℜ + λ_HM F_{αβ}F^{αβ} + λ_HEM ℜ F_{αβ}F^{αβ} = 0
+
+=== Triplet ('E', 'M', 'P') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( F_{μα} F_ν^{ α} - (1/4) g_{μν} F_{αβ} F^{αβ} + ∂_μ φ_P ∂_ν φ_P - (1/2) g_{μν} (∂ φ_P)^2 - g_{μν} V(φ_P) + T_{μν}^{(int)} )
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_ME J_{E}^ν + κ_MP φ_P ∇^ν φ_P + κ_MEP Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PE ℜ + λ_PM F_{αβ}F^{αβ} + λ_PEM ℜ F_{αβ}F^{αβ} = 0
+
+=== Triplet ('E', 'M', 'A') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( F_{μα} F_ν^{ α} - (1/4) g_{μν} F_{αβ} F^{αβ} + ∂_μ φ_A ∂_ν φ_A - (1/2) g_{μν} (∂ φ_A)^2 - g_{μν} V(φ_A) + T_{μν}^{(int)} )
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_ME J_{E}^ν + κ_MA φ_A ∇^ν φ_A + κ_MEA Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AE ℜ + λ_AM F_{αβ}F^{αβ} + λ_AEM ℜ F_{αβ}F^{αβ} = 0
+
+=== Triplet ('E', 'W', 'T') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_W ∂_ν φ_W - (1/2) g_{μν} (∂ φ_W)^2 - g_{μν} V(φ_W) + ∂_μ φ_T ∂_ν φ_T - (1/2) g_{μν} (∂ φ_T)^2 - g_{μν} V(φ_T) + T_{μν}^{(int)} )
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WE ℜ + λ_WT φ_T + λ_WET ℜ φ_T = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TE ℜ + λ_TW φ_W + λ_TEW ℜ φ_W = 0
+
+=== Triplet ('E', 'W', 'I') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_W ∂_ν φ_W - (1/2) g_{μν} (∂ φ_W)^2 - g_{μν} V(φ_W) + ∂_μ φ_I ∂_ν φ_I - (1/2) g_{μν} (∂ φ_I)^2 - g_{μν} V(φ_I) + T_{μν}^{(int)} )
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WE ℜ + λ_WI φ_I + λ_WEI ℜ φ_I = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IE ℜ + λ_IW φ_W + λ_IEW ℜ φ_W = 0
+
+=== Triplet ('E', 'W', 'R') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_W ∂_ν φ_W - (1/2) g_{μν} (∂ φ_W)^2 - g_{μν} V(φ_W) + ∂_μ φ_R ∂_ν φ_R - (1/2) g_{μν} (∂ φ_R)^2 - g_{μν} V(φ_R) + T_{μν}^{(int)} )
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WE ℜ + λ_WR φ_R + λ_WER ℜ φ_R = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RE ℜ + λ_RW φ_W + λ_REW ℜ φ_W = 0
+
+=== Triplet ('E', 'W', 'S') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_W ∂_ν φ_W - (1/2) g_{μν} (∂ φ_W)^2 - g_{μν} V(φ_W) + S_{μα} S_ν^{ α} - (1/4) g_{μν} S_{αβ} S^{αβ} + T_{μν}^{(int)} )
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SE J_{E}^ν + κ_SW φ_W ∇^ν φ_W + κ_SEW Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WE ℜ + λ_WS S_{αβ}S^{αβ} + λ_WES ℜ S_{αβ}S^{αβ} = 0
+
+=== Triplet ('E', 'W', 'H') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_W ∂_ν φ_W - (1/2) g_{μν} (∂ φ_W)^2 - g_{μν} V(φ_W) + ∂_μ φ_H ∂_ν φ_H - (1/2) g_{μν} (∂ φ_H)^2 - g_{μν} V(φ_H) + T_{μν}^{(int)} )
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WE ℜ + λ_WH φ_H + λ_WEH ℜ φ_H = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HE ℜ + λ_HW φ_W + λ_HEW ℜ φ_W = 0
+
+=== Triplet ('E', 'W', 'P') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_W ∂_ν φ_W - (1/2) g_{μν} (∂ φ_W)^2 - g_{μν} V(φ_W) + ∂_μ φ_P ∂_ν φ_P - (1/2) g_{μν} (∂ φ_P)^2 - g_{μν} V(φ_P) + T_{μν}^{(int)} )
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WE ℜ + λ_WP φ_P + λ_WEP ℜ φ_P = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PE ℜ + λ_PW φ_W + λ_PEW ℜ φ_W = 0
+
+=== Triplet ('E', 'W', 'A') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_W ∂_ν φ_W - (1/2) g_{μν} (∂ φ_W)^2 - g_{μν} V(φ_W) + ∂_μ φ_A ∂_ν φ_A - (1/2) g_{μν} (∂ φ_A)^2 - g_{μν} V(φ_A) + T_{μν}^{(int)} )
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WE ℜ + λ_WA φ_A + λ_WEA ℜ φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AE ℜ + λ_AW φ_W + λ_AEW ℜ φ_W = 0
+
+=== Triplet ('E', 'T', 'I') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_T ∂_ν φ_T - (1/2) g_{μν} (∂ φ_T)^2 - g_{μν} V(φ_T) + ∂_μ φ_I ∂_ν φ_I - (1/2) g_{μν} (∂ φ_I)^2 - g_{μν} V(φ_I) + T_{μν}^{(int)} )
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TE ℜ + λ_TI φ_I + λ_TEI ℜ φ_I = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IE ℜ + λ_IT φ_T + λ_IET ℜ φ_T = 0
+
+=== Triplet ('E', 'T', 'R') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_T ∂_ν φ_T - (1/2) g_{μν} (∂ φ_T)^2 - g_{μν} V(φ_T) + ∂_μ φ_R ∂_ν φ_R - (1/2) g_{μν} (∂ φ_R)^2 - g_{μν} V(φ_R) + T_{μν}^{(int)} )
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TE ℜ + λ_TR φ_R + λ_TER ℜ φ_R = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RE ℜ + λ_RT φ_T + λ_RET ℜ φ_T = 0
+
+=== Triplet ('E', 'T', 'S') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_T ∂_ν φ_T - (1/2) g_{μν} (∂ φ_T)^2 - g_{μν} V(φ_T) + S_{μα} S_ν^{ α} - (1/4) g_{μν} S_{αβ} S^{αβ} + T_{μν}^{(int)} )
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SE J_{E}^ν + κ_ST φ_T ∇^ν φ_T + κ_SET Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TE ℜ + λ_TS S_{αβ}S^{αβ} + λ_TES ℜ S_{αβ}S^{αβ} = 0
+
+=== Triplet ('E', 'T', 'H') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_T ∂_ν φ_T - (1/2) g_{μν} (∂ φ_T)^2 - g_{μν} V(φ_T) + ∂_μ φ_H ∂_ν φ_H - (1/2) g_{μν} (∂ φ_H)^2 - g_{μν} V(φ_H) + T_{μν}^{(int)} )
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TE ℜ + λ_TH φ_H + λ_TEH ℜ φ_H = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HE ℜ + λ_HT φ_T + λ_HET ℜ φ_T = 0
+
+=== Triplet ('E', 'T', 'P') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_T ∂_ν φ_T - (1/2) g_{μν} (∂ φ_T)^2 - g_{μν} V(φ_T) + ∂_μ φ_P ∂_ν φ_P - (1/2) g_{μν} (∂ φ_P)^2 - g_{μν} V(φ_P) + T_{μν}^{(int)} )
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TE ℜ + λ_TP φ_P + λ_TEP ℜ φ_P = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PE ℜ + λ_PT φ_T + λ_PET ℜ φ_T = 0
+
+=== Triplet ('E', 'T', 'A') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_T ∂_ν φ_T - (1/2) g_{μν} (∂ φ_T)^2 - g_{μν} V(φ_T) + ∂_μ φ_A ∂_ν φ_A - (1/2) g_{μν} (∂ φ_A)^2 - g_{μν} V(φ_A) + T_{μν}^{(int)} )
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TE ℜ + λ_TA φ_A + λ_TEA ℜ φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AE ℜ + λ_AT φ_T + λ_AET ℜ φ_T = 0
+
+=== Triplet ('E', 'I', 'R') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_I ∂_ν φ_I - (1/2) g_{μν} (∂ φ_I)^2 - g_{μν} V(φ_I) + ∂_μ φ_R ∂_ν φ_R - (1/2) g_{μν} (∂ φ_R)^2 - g_{μν} V(φ_R) + T_{μν}^{(int)} )
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IE ℜ + λ_IR φ_R + λ_IER ℜ φ_R = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RE ℜ + λ_RI φ_I + λ_REI ℜ φ_I = 0
+
+=== Triplet ('E', 'I', 'S') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_I ∂_ν φ_I - (1/2) g_{μν} (∂ φ_I)^2 - g_{μν} V(φ_I) + S_{μα} S_ν^{ α} - (1/4) g_{μν} S_{αβ} S^{αβ} + T_{μν}^{(int)} )
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SE J_{E}^ν + κ_SI φ_I ∇^ν φ_I + κ_SEI Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IE ℜ + λ_IS S_{αβ}S^{αβ} + λ_IES ℜ S_{αβ}S^{αβ} = 0
+
+=== Triplet ('E', 'I', 'H') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_I ∂_ν φ_I - (1/2) g_{μν} (∂ φ_I)^2 - g_{μν} V(φ_I) + ∂_μ φ_H ∂_ν φ_H - (1/2) g_{μν} (∂ φ_H)^2 - g_{μν} V(φ_H) + T_{μν}^{(int)} )
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IE ℜ + λ_IH φ_H + λ_IEH ℜ φ_H = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HE ℜ + λ_HI φ_I + λ_HEI ℜ φ_I = 0
+
+=== Triplet ('E', 'I', 'P') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_I ∂_ν φ_I - (1/2) g_{μν} (∂ φ_I)^2 - g_{μν} V(φ_I) + ∂_μ φ_P ∂_ν φ_P - (1/2) g_{μν} (∂ φ_P)^2 - g_{μν} V(φ_P) + T_{μν}^{(int)} )
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IE ℜ + λ_IP φ_P + λ_IEP ℜ φ_P = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PE ℜ + λ_PI φ_I + λ_PEI ℜ φ_I = 0
+
+=== Triplet ('E', 'I', 'A') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_I ∂_ν φ_I - (1/2) g_{μν} (∂ φ_I)^2 - g_{μν} V(φ_I) + ∂_μ φ_A ∂_ν φ_A - (1/2) g_{μν} (∂ φ_A)^2 - g_{μν} V(φ_A) + T_{μν}^{(int)} )
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IE ℜ + λ_IA φ_A + λ_IEA ℜ φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AE ℜ + λ_AI φ_I + λ_AEI ℜ φ_I = 0
+
+=== Triplet ('E', 'R', 'S') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_R ∂_ν φ_R - (1/2) g_{μν} (∂ φ_R)^2 - g_{μν} V(φ_R) + S_{μα} S_ν^{ α} - (1/4) g_{μν} S_{αβ} S^{αβ} + T_{μν}^{(int)} )
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SE J_{E}^ν + κ_SR φ_R ∇^ν φ_R + κ_SER Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RE ℜ + λ_RS S_{αβ}S^{αβ} + λ_RES ℜ S_{αβ}S^{αβ} = 0
+
+=== Triplet ('E', 'R', 'H') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_R ∂_ν φ_R - (1/2) g_{μν} (∂ φ_R)^2 - g_{μν} V(φ_R) + ∂_μ φ_H ∂_ν φ_H - (1/2) g_{μν} (∂ φ_H)^2 - g_{μν} V(φ_H) + T_{μν}^{(int)} )
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RE ℜ + λ_RH φ_H + λ_REH ℜ φ_H = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HE ℜ + λ_HR φ_R + λ_HER ℜ φ_R = 0
+
+=== Triplet ('E', 'R', 'P') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_R ∂_ν φ_R - (1/2) g_{μν} (∂ φ_R)^2 - g_{μν} V(φ_R) + ∂_μ φ_P ∂_ν φ_P - (1/2) g_{μν} (∂ φ_P)^2 - g_{μν} V(φ_P) + T_{μν}^{(int)} )
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RE ℜ + λ_RP φ_P + λ_REP ℜ φ_P = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PE ℜ + λ_PR φ_R + λ_PER ℜ φ_R = 0
+
+=== Triplet ('E', 'R', 'A') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_R ∂_ν φ_R - (1/2) g_{μν} (∂ φ_R)^2 - g_{μν} V(φ_R) + ∂_μ φ_A ∂_ν φ_A - (1/2) g_{μν} (∂ φ_A)^2 - g_{μν} V(φ_A) + T_{μν}^{(int)} )
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RE ℜ + λ_RA φ_A + λ_REA ℜ φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AE ℜ + λ_AR φ_R + λ_AER ℜ φ_R = 0
+
+=== Triplet ('E', 'S', 'H') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( S_{μα} S_ν^{ α} - (1/4) g_{μν} S_{αβ} S^{αβ} + ∂_μ φ_H ∂_ν φ_H - (1/2) g_{μν} (∂ φ_H)^2 - g_{μν} V(φ_H) + T_{μν}^{(int)} )
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SE J_{E}^ν + κ_SH φ_H ∇^ν φ_H + κ_SEH Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HE ℜ + λ_HS S_{αβ}S^{αβ} + λ_HES ℜ S_{αβ}S^{αβ} = 0
+
+=== Triplet ('E', 'S', 'P') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( S_{μα} S_ν^{ α} - (1/4) g_{μν} S_{αβ} S^{αβ} + ∂_μ φ_P ∂_ν φ_P - (1/2) g_{μν} (∂ φ_P)^2 - g_{μν} V(φ_P) + T_{μν}^{(int)} )
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SE J_{E}^ν + κ_SP φ_P ∇^ν φ_P + κ_SEP Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PE ℜ + λ_PS S_{αβ}S^{αβ} + λ_PES ℜ S_{αβ}S^{αβ} = 0
+
+=== Triplet ('E', 'S', 'A') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( S_{μα} S_ν^{ α} - (1/4) g_{μν} S_{αβ} S^{αβ} + ∂_μ φ_A ∂_ν φ_A - (1/2) g_{μν} (∂ φ_A)^2 - g_{μν} V(φ_A) + T_{μν}^{(int)} )
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SE J_{E}^ν + κ_SA φ_A ∇^ν φ_A + κ_SEA Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AE ℜ + λ_AS S_{αβ}S^{αβ} + λ_AES ℜ S_{αβ}S^{αβ} = 0
+
+=== Triplet ('E', 'H', 'P') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_H ∂_ν φ_H - (1/2) g_{μν} (∂ φ_H)^2 - g_{μν} V(φ_H) + ∂_μ φ_P ∂_ν φ_P - (1/2) g_{μν} (∂ φ_P)^2 - g_{μν} V(φ_P) + T_{μν}^{(int)} )
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HE ℜ + λ_HP φ_P + λ_HEP ℜ φ_P = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PE ℜ + λ_PH φ_H + λ_PEH ℜ φ_H = 0
+
+=== Triplet ('E', 'H', 'A') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_H ∂_ν φ_H - (1/2) g_{μν} (∂ φ_H)^2 - g_{μν} V(φ_H) + ∂_μ φ_A ∂_ν φ_A - (1/2) g_{μν} (∂ φ_A)^2 - g_{μν} V(φ_A) + T_{μν}^{(int)} )
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HE ℜ + λ_HA φ_A + λ_HEA ℜ φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AE ℜ + λ_AH φ_H + λ_AEH ℜ φ_H = 0
+
+=== Triplet ('E', 'P', 'A') ===
+GR (Einstein): G_{μν} + Λ g_{μν} = κ ( ∂_μ φ_P ∂_ν φ_P - (1/2) g_{μν} (∂ φ_P)^2 - g_{μν} V(φ_P) + ∂_μ φ_A ∂_ν φ_A - (1/2) g_{μν} (∂ φ_A)^2 - g_{μν} V(φ_A) + T_{μν}^{(int)} )
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PE ℜ + λ_PA φ_A + λ_PEA ℜ φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AE ℜ + λ_AP φ_P + λ_AEP ℜ φ_P = 0
+
+=== Triplet ('F', 'M', 'W') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MF φ_F ∇^ν φ_F + κ_MW φ_W ∇^ν φ_W + κ_MFW Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FM F_{αβ}F^{αβ} + λ_FW φ_W + λ_FWM φ_W F_{αβ}F^{αβ} = 0
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WF φ_F + λ_WM F_{αβ}F^{αβ} + λ_WFM φ_F F_{αβ}F^{αβ} = 0
+
+=== Triplet ('F', 'M', 'T') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MF φ_F ∇^ν φ_F + κ_MT φ_T ∇^ν φ_T + κ_MFT Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FM F_{αβ}F^{αβ} + λ_FT φ_T + λ_FTM φ_T F_{αβ}F^{αβ} = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TF φ_F + λ_TM F_{αβ}F^{αβ} + λ_TFM φ_F F_{αβ}F^{αβ} = 0
+
+=== Triplet ('F', 'M', 'I') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MF φ_F ∇^ν φ_F + κ_MI φ_I ∇^ν φ_I + κ_MFI Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FM F_{αβ}F^{αβ} + λ_FI φ_I + λ_FIM φ_I F_{αβ}F^{αβ} = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IF φ_F + λ_IM F_{αβ}F^{αβ} + λ_IFM φ_F F_{αβ}F^{αβ} = 0
+
+=== Triplet ('F', 'M', 'R') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MF φ_F ∇^ν φ_F + κ_MR φ_R ∇^ν φ_R + κ_MFR Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FM F_{αβ}F^{αβ} + λ_FR φ_R + λ_FRM φ_R F_{αβ}F^{αβ} = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RF φ_F + λ_RM F_{αβ}F^{αβ} + λ_RFM φ_F F_{αβ}F^{αβ} = 0
+
+=== Triplet ('F', 'M', 'S') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MF φ_F ∇^ν φ_F + κ_MS J_{S}^ν + κ_MFS Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SF φ_F ∇^ν φ_F + κ_SM J_{M}^ν + κ_SFM Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FM F_{αβ}F^{αβ} + λ_FS S_{αβ}S^{αβ} + λ_FMS F_{αβ}F^{αβ} S_{αβ}S^{αβ} = 0
+
+=== Triplet ('F', 'M', 'H') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MF φ_F ∇^ν φ_F + κ_MH φ_H ∇^ν φ_H + κ_MFH Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FM F_{αβ}F^{αβ} + λ_FH φ_H + λ_FHM φ_H F_{αβ}F^{αβ} = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HF φ_F + λ_HM F_{αβ}F^{αβ} + λ_HFM φ_F F_{αβ}F^{αβ} = 0
+
+=== Triplet ('F', 'M', 'P') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MF φ_F ∇^ν φ_F + κ_MP φ_P ∇^ν φ_P + κ_MFP Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FM F_{αβ}F^{αβ} + λ_FP φ_P + λ_FPM φ_P F_{αβ}F^{αβ} = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PF φ_F + λ_PM F_{αβ}F^{αβ} + λ_PFM φ_F F_{αβ}F^{αβ} = 0
+
+=== Triplet ('F', 'M', 'A') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MF φ_F ∇^ν φ_F + κ_MA φ_A ∇^ν φ_A + κ_MFA Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FM F_{αβ}F^{αβ} + λ_FA φ_A + λ_FAM φ_A F_{αβ}F^{αβ} = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AF φ_F + λ_AM F_{αβ}F^{αβ} + λ_AFM φ_F F_{αβ}F^{αβ} = 0
+
+=== Triplet ('F', 'W', 'T') ===
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FW φ_W + λ_FT φ_T + λ_FWT φ_W φ_T = 0
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WF φ_F + λ_WT φ_T + λ_WFT φ_F φ_T = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TF φ_F + λ_TW φ_W + λ_TFW φ_F φ_W = 0
+
+=== Triplet ('F', 'W', 'I') ===
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FW φ_W + λ_FI φ_I + λ_FWI φ_W φ_I = 0
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WF φ_F + λ_WI φ_I + λ_WFI φ_F φ_I = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IF φ_F + λ_IW φ_W + λ_IFW φ_F φ_W = 0
+
+=== Triplet ('F', 'W', 'R') ===
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FW φ_W + λ_FR φ_R + λ_FWR φ_W φ_R = 0
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WF φ_F + λ_WR φ_R + λ_WFR φ_F φ_R = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RF φ_F + λ_RW φ_W + λ_RFW φ_F φ_W = 0
+
+=== Triplet ('F', 'W', 'S') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SF φ_F ∇^ν φ_F + κ_SW φ_W ∇^ν φ_W + κ_SFW Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FW φ_W + λ_FS S_{αβ}S^{αβ} + λ_FWS φ_W S_{αβ}S^{αβ} = 0
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WF φ_F + λ_WS S_{αβ}S^{αβ} + λ_WFS φ_F S_{αβ}S^{αβ} = 0
+
+=== Triplet ('F', 'W', 'H') ===
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FW φ_W + λ_FH φ_H + λ_FWH φ_W φ_H = 0
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WF φ_F + λ_WH φ_H + λ_WFH φ_F φ_H = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HF φ_F + λ_HW φ_W + λ_HFW φ_F φ_W = 0
+
+=== Triplet ('F', 'W', 'P') ===
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FW φ_W + λ_FP φ_P + λ_FWP φ_W φ_P = 0
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WF φ_F + λ_WP φ_P + λ_WFP φ_F φ_P = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PF φ_F + λ_PW φ_W + λ_PFW φ_F φ_W = 0
+
+=== Triplet ('F', 'W', 'A') ===
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FW φ_W + λ_FA φ_A + λ_FWA φ_W φ_A = 0
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WF φ_F + λ_WA φ_A + λ_WFA φ_F φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AF φ_F + λ_AW φ_W + λ_AFW φ_F φ_W = 0
+
+=== Triplet ('F', 'T', 'I') ===
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FT φ_T + λ_FI φ_I + λ_FTI φ_T φ_I = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TF φ_F + λ_TI φ_I + λ_TFI φ_F φ_I = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IF φ_F + λ_IT φ_T + λ_IFT φ_F φ_T = 0
+
+=== Triplet ('F', 'T', 'R') ===
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FT φ_T + λ_FR φ_R + λ_FTR φ_T φ_R = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TF φ_F + λ_TR φ_R + λ_TFR φ_F φ_R = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RF φ_F + λ_RT φ_T + λ_RFT φ_F φ_T = 0
+
+=== Triplet ('F', 'T', 'S') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SF φ_F ∇^ν φ_F + κ_ST φ_T ∇^ν φ_T + κ_SFT Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FT φ_T + λ_FS S_{αβ}S^{αβ} + λ_FTS φ_T S_{αβ}S^{αβ} = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TF φ_F + λ_TS S_{αβ}S^{αβ} + λ_TFS φ_F S_{αβ}S^{αβ} = 0
+
+=== Triplet ('F', 'T', 'H') ===
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FT φ_T + λ_FH φ_H + λ_FTH φ_T φ_H = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TF φ_F + λ_TH φ_H + λ_TFH φ_F φ_H = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HF φ_F + λ_HT φ_T + λ_HFT φ_F φ_T = 0
+
+=== Triplet ('F', 'T', 'P') ===
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FT φ_T + λ_FP φ_P + λ_FTP φ_T φ_P = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TF φ_F + λ_TP φ_P + λ_TFP φ_F φ_P = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PF φ_F + λ_PT φ_T + λ_PFT φ_F φ_T = 0
+
+=== Triplet ('F', 'T', 'A') ===
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FT φ_T + λ_FA φ_A + λ_FTA φ_T φ_A = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TF φ_F + λ_TA φ_A + λ_TFA φ_F φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AF φ_F + λ_AT φ_T + λ_AFT φ_F φ_T = 0
+
+=== Triplet ('F', 'I', 'R') ===
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FI φ_I + λ_FR φ_R + λ_FIR φ_I φ_R = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IF φ_F + λ_IR φ_R + λ_IFR φ_F φ_R = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RF φ_F + λ_RI φ_I + λ_RFI φ_F φ_I = 0
+
+=== Triplet ('F', 'I', 'S') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SF φ_F ∇^ν φ_F + κ_SI φ_I ∇^ν φ_I + κ_SFI Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FI φ_I + λ_FS S_{αβ}S^{αβ} + λ_FIS φ_I S_{αβ}S^{αβ} = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IF φ_F + λ_IS S_{αβ}S^{αβ} + λ_IFS φ_F S_{αβ}S^{αβ} = 0
+
+=== Triplet ('F', 'I', 'H') ===
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FI φ_I + λ_FH φ_H + λ_FIH φ_I φ_H = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IF φ_F + λ_IH φ_H + λ_IFH φ_F φ_H = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HF φ_F + λ_HI φ_I + λ_HFI φ_F φ_I = 0
+
+=== Triplet ('F', 'I', 'P') ===
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FI φ_I + λ_FP φ_P + λ_FIP φ_I φ_P = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IF φ_F + λ_IP φ_P + λ_IFP φ_F φ_P = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PF φ_F + λ_PI φ_I + λ_PFI φ_F φ_I = 0
+
+=== Triplet ('F', 'I', 'A') ===
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FI φ_I + λ_FA φ_A + λ_FIA φ_I φ_A = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IF φ_F + λ_IA φ_A + λ_IFA φ_F φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AF φ_F + λ_AI φ_I + λ_AFI φ_F φ_I = 0
+
+=== Triplet ('F', 'R', 'S') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SF φ_F ∇^ν φ_F + κ_SR φ_R ∇^ν φ_R + κ_SFR Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FR φ_R + λ_FS S_{αβ}S^{αβ} + λ_FRS φ_R S_{αβ}S^{αβ} = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RF φ_F + λ_RS S_{αβ}S^{αβ} + λ_RFS φ_F S_{αβ}S^{αβ} = 0
+
+=== Triplet ('F', 'R', 'H') ===
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FR φ_R + λ_FH φ_H + λ_FRH φ_R φ_H = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RF φ_F + λ_RH φ_H + λ_RFH φ_F φ_H = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HF φ_F + λ_HR φ_R + λ_HFR φ_F φ_R = 0
+
+=== Triplet ('F', 'R', 'P') ===
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FR φ_R + λ_FP φ_P + λ_FRP φ_R φ_P = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RF φ_F + λ_RP φ_P + λ_RFP φ_F φ_P = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PF φ_F + λ_PR φ_R + λ_PFR φ_F φ_R = 0
+
+=== Triplet ('F', 'R', 'A') ===
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FR φ_R + λ_FA φ_A + λ_FRA φ_R φ_A = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RF φ_F + λ_RA φ_A + λ_RFA φ_F φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AF φ_F + λ_AR φ_R + λ_AFR φ_F φ_R = 0
+
+=== Triplet ('F', 'S', 'H') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SF φ_F ∇^ν φ_F + κ_SH φ_H ∇^ν φ_H + κ_SFH Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FS S_{αβ}S^{αβ} + λ_FH φ_H + λ_FHS φ_H S_{αβ}S^{αβ} = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HF φ_F + λ_HS S_{αβ}S^{αβ} + λ_HFS φ_F S_{αβ}S^{αβ} = 0
+
+=== Triplet ('F', 'S', 'P') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SF φ_F ∇^ν φ_F + κ_SP φ_P ∇^ν φ_P + κ_SFP Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FS S_{αβ}S^{αβ} + λ_FP φ_P + λ_FPS φ_P S_{αβ}S^{αβ} = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PF φ_F + λ_PS S_{αβ}S^{αβ} + λ_PFS φ_F S_{αβ}S^{αβ} = 0
+
+=== Triplet ('F', 'S', 'A') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SF φ_F ∇^ν φ_F + κ_SA φ_A ∇^ν φ_A + κ_SFA Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FS S_{αβ}S^{αβ} + λ_FA φ_A + λ_FAS φ_A S_{αβ}S^{αβ} = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AF φ_F + λ_AS S_{αβ}S^{αβ} + λ_AFS φ_F S_{αβ}S^{αβ} = 0
+
+=== Triplet ('F', 'H', 'P') ===
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FH φ_H + λ_FP φ_P + λ_FHP φ_H φ_P = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HF φ_F + λ_HP φ_P + λ_HFP φ_F φ_P = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PF φ_F + λ_PH φ_H + λ_PFH φ_F φ_H = 0
+
+=== Triplet ('F', 'H', 'A') ===
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FH φ_H + λ_FA φ_A + λ_FHA φ_H φ_A = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HF φ_F + λ_HA φ_A + λ_HFA φ_F φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AF φ_F + λ_AH φ_H + λ_AFH φ_F φ_H = 0
+
+=== Triplet ('F', 'P', 'A') ===
+Scalar F: □_g φ_F + m_F^2 φ_F + ξ_F R φ_F + λ_FP φ_P + λ_FA φ_A + λ_FPA φ_P φ_A = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PF φ_F + λ_PA φ_A + λ_PFA φ_F φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AF φ_F + λ_AP φ_P + λ_AFP φ_F φ_P = 0
+
+=== Triplet ('M', 'W', 'T') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MW φ_W ∇^ν φ_W + κ_MT φ_T ∇^ν φ_T + κ_MWT Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WM F_{αβ}F^{αβ} + λ_WT φ_T + λ_WTM φ_T F_{αβ}F^{αβ} = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TM F_{αβ}F^{αβ} + λ_TW φ_W + λ_TWM φ_W F_{αβ}F^{αβ} = 0
+
+=== Triplet ('M', 'W', 'I') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MW φ_W ∇^ν φ_W + κ_MI φ_I ∇^ν φ_I + κ_MWI Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WM F_{αβ}F^{αβ} + λ_WI φ_I + λ_WIM φ_I F_{αβ}F^{αβ} = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IM F_{αβ}F^{αβ} + λ_IW φ_W + λ_IWM φ_W F_{αβ}F^{αβ} = 0
+
+=== Triplet ('M', 'W', 'R') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MW φ_W ∇^ν φ_W + κ_MR φ_R ∇^ν φ_R + κ_MWR Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WM F_{αβ}F^{αβ} + λ_WR φ_R + λ_WRM φ_R F_{αβ}F^{αβ} = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RM F_{αβ}F^{αβ} + λ_RW φ_W + λ_RWM φ_W F_{αβ}F^{αβ} = 0
+
+=== Triplet ('M', 'W', 'S') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MW φ_W ∇^ν φ_W + κ_MS J_{S}^ν + κ_MWS Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SM J_{M}^ν + κ_SW φ_W ∇^ν φ_W + κ_SMW Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WM F_{αβ}F^{αβ} + λ_WS S_{αβ}S^{αβ} + λ_WMS F_{αβ}F^{αβ} S_{αβ}S^{αβ} = 0
+
+=== Triplet ('M', 'W', 'H') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MW φ_W ∇^ν φ_W + κ_MH φ_H ∇^ν φ_H + κ_MWH Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WM F_{αβ}F^{αβ} + λ_WH φ_H + λ_WHM φ_H F_{αβ}F^{αβ} = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HM F_{αβ}F^{αβ} + λ_HW φ_W + λ_HWM φ_W F_{αβ}F^{αβ} = 0
+
+=== Triplet ('M', 'W', 'P') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MW φ_W ∇^ν φ_W + κ_MP φ_P ∇^ν φ_P + κ_MWP Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WM F_{αβ}F^{αβ} + λ_WP φ_P + λ_WPM φ_P F_{αβ}F^{αβ} = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PM F_{αβ}F^{αβ} + λ_PW φ_W + λ_PWM φ_W F_{αβ}F^{αβ} = 0
+
+=== Triplet ('M', 'W', 'A') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MW φ_W ∇^ν φ_W + κ_MA φ_A ∇^ν φ_A + κ_MWA Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WM F_{αβ}F^{αβ} + λ_WA φ_A + λ_WAM φ_A F_{αβ}F^{αβ} = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AM F_{αβ}F^{αβ} + λ_AW φ_W + λ_AWM φ_W F_{αβ}F^{αβ} = 0
+
+=== Triplet ('M', 'T', 'I') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MT φ_T ∇^ν φ_T + κ_MI φ_I ∇^ν φ_I + κ_MTI Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TM F_{αβ}F^{αβ} + λ_TI φ_I + λ_TIM φ_I F_{αβ}F^{αβ} = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IM F_{αβ}F^{αβ} + λ_IT φ_T + λ_ITM φ_T F_{αβ}F^{αβ} = 0
+
+=== Triplet ('M', 'T', 'R') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MT φ_T ∇^ν φ_T + κ_MR φ_R ∇^ν φ_R + κ_MTR Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TM F_{αβ}F^{αβ} + λ_TR φ_R + λ_TRM φ_R F_{αβ}F^{αβ} = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RM F_{αβ}F^{αβ} + λ_RT φ_T + λ_RTM φ_T F_{αβ}F^{αβ} = 0
+
+=== Triplet ('M', 'T', 'S') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MT φ_T ∇^ν φ_T + κ_MS J_{S}^ν + κ_MTS Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SM J_{M}^ν + κ_ST φ_T ∇^ν φ_T + κ_SMT Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TM F_{αβ}F^{αβ} + λ_TS S_{αβ}S^{αβ} + λ_TMS F_{αβ}F^{αβ} S_{αβ}S^{αβ} = 0
+
+=== Triplet ('M', 'T', 'H') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MT φ_T ∇^ν φ_T + κ_MH φ_H ∇^ν φ_H + κ_MTH Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TM F_{αβ}F^{αβ} + λ_TH φ_H + λ_THM φ_H F_{αβ}F^{αβ} = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HM F_{αβ}F^{αβ} + λ_HT φ_T + λ_HTM φ_T F_{αβ}F^{αβ} = 0
+
+=== Triplet ('M', 'T', 'P') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MT φ_T ∇^ν φ_T + κ_MP φ_P ∇^ν φ_P + κ_MTP Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TM F_{αβ}F^{αβ} + λ_TP φ_P + λ_TPM φ_P F_{αβ}F^{αβ} = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PM F_{αβ}F^{αβ} + λ_PT φ_T + λ_PTM φ_T F_{αβ}F^{αβ} = 0
+
+=== Triplet ('M', 'T', 'A') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MT φ_T ∇^ν φ_T + κ_MA φ_A ∇^ν φ_A + κ_MTA Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TM F_{αβ}F^{αβ} + λ_TA φ_A + λ_TAM φ_A F_{αβ}F^{αβ} = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AM F_{αβ}F^{αβ} + λ_AT φ_T + λ_ATM φ_T F_{αβ}F^{αβ} = 0
+
+=== Triplet ('M', 'I', 'R') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MI φ_I ∇^ν φ_I + κ_MR φ_R ∇^ν φ_R + κ_MIR Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IM F_{αβ}F^{αβ} + λ_IR φ_R + λ_IRM φ_R F_{αβ}F^{αβ} = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RM F_{αβ}F^{αβ} + λ_RI φ_I + λ_RIM φ_I F_{αβ}F^{αβ} = 0
+
+=== Triplet ('M', 'I', 'S') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MI φ_I ∇^ν φ_I + κ_MS J_{S}^ν + κ_MIS Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SM J_{M}^ν + κ_SI φ_I ∇^ν φ_I + κ_SMI Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IM F_{αβ}F^{αβ} + λ_IS S_{αβ}S^{αβ} + λ_IMS F_{αβ}F^{αβ} S_{αβ}S^{αβ} = 0
+
+=== Triplet ('M', 'I', 'H') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MI φ_I ∇^ν φ_I + κ_MH φ_H ∇^ν φ_H + κ_MIH Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IM F_{αβ}F^{αβ} + λ_IH φ_H + λ_IHM φ_H F_{αβ}F^{αβ} = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HM F_{αβ}F^{αβ} + λ_HI φ_I + λ_HIM φ_I F_{αβ}F^{αβ} = 0
+
+=== Triplet ('M', 'I', 'P') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MI φ_I ∇^ν φ_I + κ_MP φ_P ∇^ν φ_P + κ_MIP Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IM F_{αβ}F^{αβ} + λ_IP φ_P + λ_IPM φ_P F_{αβ}F^{αβ} = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PM F_{αβ}F^{αβ} + λ_PI φ_I + λ_PIM φ_I F_{αβ}F^{αβ} = 0
+
+=== Triplet ('M', 'I', 'A') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MI φ_I ∇^ν φ_I + κ_MA φ_A ∇^ν φ_A + κ_MIA Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IM F_{αβ}F^{αβ} + λ_IA φ_A + λ_IAM φ_A F_{αβ}F^{αβ} = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AM F_{αβ}F^{αβ} + λ_AI φ_I + λ_AIM φ_I F_{αβ}F^{αβ} = 0
+
+=== Triplet ('M', 'R', 'S') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MR φ_R ∇^ν φ_R + κ_MS J_{S}^ν + κ_MRS Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SM J_{M}^ν + κ_SR φ_R ∇^ν φ_R + κ_SMR Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RM F_{αβ}F^{αβ} + λ_RS S_{αβ}S^{αβ} + λ_RMS F_{αβ}F^{αβ} S_{αβ}S^{αβ} = 0
+
+=== Triplet ('M', 'R', 'H') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MR φ_R ∇^ν φ_R + κ_MH φ_H ∇^ν φ_H + κ_MRH Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RM F_{αβ}F^{αβ} + λ_RH φ_H + λ_RHM φ_H F_{αβ}F^{αβ} = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HM F_{αβ}F^{αβ} + λ_HR φ_R + λ_HRM φ_R F_{αβ}F^{αβ} = 0
+
+=== Triplet ('M', 'R', 'P') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MR φ_R ∇^ν φ_R + κ_MP φ_P ∇^ν φ_P + κ_MRP Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RM F_{αβ}F^{αβ} + λ_RP φ_P + λ_RPM φ_P F_{αβ}F^{αβ} = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PM F_{αβ}F^{αβ} + λ_PR φ_R + λ_PRM φ_R F_{αβ}F^{αβ} = 0
+
+=== Triplet ('M', 'R', 'A') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MR φ_R ∇^ν φ_R + κ_MA φ_A ∇^ν φ_A + κ_MRA Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RM F_{αβ}F^{αβ} + λ_RA φ_A + λ_RAM φ_A F_{αβ}F^{αβ} = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AM F_{αβ}F^{αβ} + λ_AR φ_R + λ_ARM φ_R F_{αβ}F^{αβ} = 0
+
+=== Triplet ('M', 'S', 'H') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MS J_{S}^ν + κ_MH φ_H ∇^ν φ_H + κ_MSH Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SM J_{M}^ν + κ_SH φ_H ∇^ν φ_H + κ_SMH Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HM F_{αβ}F^{αβ} + λ_HS S_{αβ}S^{αβ} + λ_HMS F_{αβ}F^{αβ} S_{αβ}S^{αβ} = 0
+
+=== Triplet ('M', 'S', 'P') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MS J_{S}^ν + κ_MP φ_P ∇^ν φ_P + κ_MSP Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SM J_{M}^ν + κ_SP φ_P ∇^ν φ_P + κ_SMP Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PM F_{αβ}F^{αβ} + λ_PS S_{αβ}S^{αβ} + λ_PMS F_{αβ}F^{αβ} S_{αβ}S^{αβ} = 0
+
+=== Triplet ('M', 'S', 'A') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MS J_{S}^ν + κ_MA φ_A ∇^ν φ_A + κ_MSA Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SM J_{M}^ν + κ_SA φ_A ∇^ν φ_A + κ_SMA Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AM F_{αβ}F^{αβ} + λ_AS S_{αβ}S^{αβ} + λ_AMS F_{αβ}F^{αβ} S_{αβ}S^{αβ} = 0
+
+=== Triplet ('M', 'H', 'P') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MH φ_H ∇^ν φ_H + κ_MP φ_P ∇^ν φ_P + κ_MHP Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HM F_{αβ}F^{αβ} + λ_HP φ_P + λ_HPM φ_P F_{αβ}F^{αβ} = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PM F_{αβ}F^{αβ} + λ_PH φ_H + λ_PHM φ_H F_{αβ}F^{αβ} = 0
+
+=== Triplet ('M', 'H', 'A') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MH φ_H ∇^ν φ_H + κ_MA φ_A ∇^ν φ_A + κ_MHA Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HM F_{αβ}F^{αβ} + λ_HA φ_A + λ_HAM φ_A F_{αβ}F^{αβ} = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AM F_{αβ}F^{αβ} + λ_AH φ_H + λ_AHM φ_H F_{αβ}F^{αβ} = 0
+
+=== Triplet ('M', 'P', 'A') ===
+M-gauge:
+  ∇_μ F_{μν}^{μν} = κ_MP φ_P ∇^ν φ_P + κ_MA φ_A ∇^ν φ_A + κ_MPA Ξ^ν
+  ∇_[μ F_{μν}_{νρ]} = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PM F_{αβ}F^{αβ} + λ_PA φ_A + λ_PAM φ_A F_{αβ}F^{αβ} = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AM F_{αβ}F^{αβ} + λ_AP φ_P + λ_APM φ_P F_{αβ}F^{αβ} = 0
+
+=== Triplet ('W', 'T', 'I') ===
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WT φ_T + λ_WI φ_I + λ_WTI φ_T φ_I = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TW φ_W + λ_TI φ_I + λ_TWI φ_W φ_I = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IW φ_W + λ_IT φ_T + λ_IWT φ_W φ_T = 0
+
+=== Triplet ('W', 'T', 'R') ===
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WT φ_T + λ_WR φ_R + λ_WTR φ_T φ_R = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TW φ_W + λ_TR φ_R + λ_TWR φ_W φ_R = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RW φ_W + λ_RT φ_T + λ_RWT φ_W φ_T = 0
+
+=== Triplet ('W', 'T', 'S') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SW φ_W ∇^ν φ_W + κ_ST φ_T ∇^ν φ_T + κ_SWT Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WT φ_T + λ_WS S_{αβ}S^{αβ} + λ_WTS φ_T S_{αβ}S^{αβ} = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TW φ_W + λ_TS S_{αβ}S^{αβ} + λ_TWS φ_W S_{αβ}S^{αβ} = 0
+
+=== Triplet ('W', 'T', 'H') ===
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WT φ_T + λ_WH φ_H + λ_WTH φ_T φ_H = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TW φ_W + λ_TH φ_H + λ_TWH φ_W φ_H = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HW φ_W + λ_HT φ_T + λ_HWT φ_W φ_T = 0
+
+=== Triplet ('W', 'T', 'P') ===
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WT φ_T + λ_WP φ_P + λ_WTP φ_T φ_P = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TW φ_W + λ_TP φ_P + λ_TWP φ_W φ_P = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PW φ_W + λ_PT φ_T + λ_PWT φ_W φ_T = 0
+
+=== Triplet ('W', 'T', 'A') ===
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WT φ_T + λ_WA φ_A + λ_WTA φ_T φ_A = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TW φ_W + λ_TA φ_A + λ_TWA φ_W φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AW φ_W + λ_AT φ_T + λ_AWT φ_W φ_T = 0
+
+=== Triplet ('W', 'I', 'R') ===
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WI φ_I + λ_WR φ_R + λ_WIR φ_I φ_R = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IW φ_W + λ_IR φ_R + λ_IWR φ_W φ_R = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RW φ_W + λ_RI φ_I + λ_RWI φ_W φ_I = 0
+
+=== Triplet ('W', 'I', 'S') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SW φ_W ∇^ν φ_W + κ_SI φ_I ∇^ν φ_I + κ_SWI Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WI φ_I + λ_WS S_{αβ}S^{αβ} + λ_WIS φ_I S_{αβ}S^{αβ} = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IW φ_W + λ_IS S_{αβ}S^{αβ} + λ_IWS φ_W S_{αβ}S^{αβ} = 0
+
+=== Triplet ('W', 'I', 'H') ===
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WI φ_I + λ_WH φ_H + λ_WIH φ_I φ_H = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IW φ_W + λ_IH φ_H + λ_IWH φ_W φ_H = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HW φ_W + λ_HI φ_I + λ_HWI φ_W φ_I = 0
+
+=== Triplet ('W', 'I', 'P') ===
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WI φ_I + λ_WP φ_P + λ_WIP φ_I φ_P = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IW φ_W + λ_IP φ_P + λ_IWP φ_W φ_P = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PW φ_W + λ_PI φ_I + λ_PWI φ_W φ_I = 0
+
+=== Triplet ('W', 'I', 'A') ===
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WI φ_I + λ_WA φ_A + λ_WIA φ_I φ_A = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IW φ_W + λ_IA φ_A + λ_IWA φ_W φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AW φ_W + λ_AI φ_I + λ_AWI φ_W φ_I = 0
+
+=== Triplet ('W', 'R', 'S') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SW φ_W ∇^ν φ_W + κ_SR φ_R ∇^ν φ_R + κ_SWR Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WR φ_R + λ_WS S_{αβ}S^{αβ} + λ_WRS φ_R S_{αβ}S^{αβ} = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RW φ_W + λ_RS S_{αβ}S^{αβ} + λ_RWS φ_W S_{αβ}S^{αβ} = 0
+
+=== Triplet ('W', 'R', 'H') ===
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WR φ_R + λ_WH φ_H + λ_WRH φ_R φ_H = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RW φ_W + λ_RH φ_H + λ_RWH φ_W φ_H = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HW φ_W + λ_HR φ_R + λ_HWR φ_W φ_R = 0
+
+=== Triplet ('W', 'R', 'P') ===
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WR φ_R + λ_WP φ_P + λ_WRP φ_R φ_P = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RW φ_W + λ_RP φ_P + λ_RWP φ_W φ_P = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PW φ_W + λ_PR φ_R + λ_PWR φ_W φ_R = 0
+
+=== Triplet ('W', 'R', 'A') ===
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WR φ_R + λ_WA φ_A + λ_WRA φ_R φ_A = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RW φ_W + λ_RA φ_A + λ_RWA φ_W φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AW φ_W + λ_AR φ_R + λ_AWR φ_W φ_R = 0
+
+=== Triplet ('W', 'S', 'H') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SW φ_W ∇^ν φ_W + κ_SH φ_H ∇^ν φ_H + κ_SWH Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WS S_{αβ}S^{αβ} + λ_WH φ_H + λ_WHS φ_H S_{αβ}S^{αβ} = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HW φ_W + λ_HS S_{αβ}S^{αβ} + λ_HWS φ_W S_{αβ}S^{αβ} = 0
+
+=== Triplet ('W', 'S', 'P') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SW φ_W ∇^ν φ_W + κ_SP φ_P ∇^ν φ_P + κ_SWP Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WS S_{αβ}S^{αβ} + λ_WP φ_P + λ_WPS φ_P S_{αβ}S^{αβ} = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PW φ_W + λ_PS S_{αβ}S^{αβ} + λ_PWS φ_W S_{αβ}S^{αβ} = 0
+
+=== Triplet ('W', 'S', 'A') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SW φ_W ∇^ν φ_W + κ_SA φ_A ∇^ν φ_A + κ_SWA Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WS S_{αβ}S^{αβ} + λ_WA φ_A + λ_WAS φ_A S_{αβ}S^{αβ} = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AW φ_W + λ_AS S_{αβ}S^{αβ} + λ_AWS φ_W S_{αβ}S^{αβ} = 0
+
+=== Triplet ('W', 'H', 'P') ===
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WH φ_H + λ_WP φ_P + λ_WHP φ_H φ_P = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HW φ_W + λ_HP φ_P + λ_HWP φ_W φ_P = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PW φ_W + λ_PH φ_H + λ_PWH φ_W φ_H = 0
+
+=== Triplet ('W', 'H', 'A') ===
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WH φ_H + λ_WA φ_A + λ_WHA φ_H φ_A = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HW φ_W + λ_HA φ_A + λ_HWA φ_W φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AW φ_W + λ_AH φ_H + λ_AWH φ_W φ_H = 0
+
+=== Triplet ('W', 'P', 'A') ===
+Scalar W: □_g φ_W + m_W^2 φ_W + ξ_W R φ_W + λ_WP φ_P + λ_WA φ_A + λ_WPA φ_P φ_A = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PW φ_W + λ_PA φ_A + λ_PWA φ_W φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AW φ_W + λ_AP φ_P + λ_AWP φ_W φ_P = 0
+
+=== Triplet ('T', 'I', 'R') ===
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TI φ_I + λ_TR φ_R + λ_TIR φ_I φ_R = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IT φ_T + λ_IR φ_R + λ_ITR φ_T φ_R = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RT φ_T + λ_RI φ_I + λ_RTI φ_T φ_I = 0
+
+=== Triplet ('T', 'I', 'S') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_ST φ_T ∇^ν φ_T + κ_SI φ_I ∇^ν φ_I + κ_STI Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TI φ_I + λ_TS S_{αβ}S^{αβ} + λ_TIS φ_I S_{αβ}S^{αβ} = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IT φ_T + λ_IS S_{αβ}S^{αβ} + λ_ITS φ_T S_{αβ}S^{αβ} = 0
+
+=== Triplet ('T', 'I', 'H') ===
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TI φ_I + λ_TH φ_H + λ_TIH φ_I φ_H = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IT φ_T + λ_IH φ_H + λ_ITH φ_T φ_H = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HT φ_T + λ_HI φ_I + λ_HTI φ_T φ_I = 0
+
+=== Triplet ('T', 'I', 'P') ===
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TI φ_I + λ_TP φ_P + λ_TIP φ_I φ_P = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IT φ_T + λ_IP φ_P + λ_ITP φ_T φ_P = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PT φ_T + λ_PI φ_I + λ_PTI φ_T φ_I = 0
+
+=== Triplet ('T', 'I', 'A') ===
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TI φ_I + λ_TA φ_A + λ_TIA φ_I φ_A = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IT φ_T + λ_IA φ_A + λ_ITA φ_T φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AT φ_T + λ_AI φ_I + λ_ATI φ_T φ_I = 0
+
+=== Triplet ('T', 'R', 'S') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_ST φ_T ∇^ν φ_T + κ_SR φ_R ∇^ν φ_R + κ_STR Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TR φ_R + λ_TS S_{αβ}S^{αβ} + λ_TRS φ_R S_{αβ}S^{αβ} = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RT φ_T + λ_RS S_{αβ}S^{αβ} + λ_RTS φ_T S_{αβ}S^{αβ} = 0
+
+=== Triplet ('T', 'R', 'H') ===
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TR φ_R + λ_TH φ_H + λ_TRH φ_R φ_H = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RT φ_T + λ_RH φ_H + λ_RTH φ_T φ_H = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HT φ_T + λ_HR φ_R + λ_HTR φ_T φ_R = 0
+
+=== Triplet ('T', 'R', 'P') ===
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TR φ_R + λ_TP φ_P + λ_TRP φ_R φ_P = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RT φ_T + λ_RP φ_P + λ_RTP φ_T φ_P = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PT φ_T + λ_PR φ_R + λ_PTR φ_T φ_R = 0
+
+=== Triplet ('T', 'R', 'A') ===
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TR φ_R + λ_TA φ_A + λ_TRA φ_R φ_A = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RT φ_T + λ_RA φ_A + λ_RTA φ_T φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AT φ_T + λ_AR φ_R + λ_ATR φ_T φ_R = 0
+
+=== Triplet ('T', 'S', 'H') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_ST φ_T ∇^ν φ_T + κ_SH φ_H ∇^ν φ_H + κ_STH Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TS S_{αβ}S^{αβ} + λ_TH φ_H + λ_THS φ_H S_{αβ}S^{αβ} = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HT φ_T + λ_HS S_{αβ}S^{αβ} + λ_HTS φ_T S_{αβ}S^{αβ} = 0
+
+=== Triplet ('T', 'S', 'P') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_ST φ_T ∇^ν φ_T + κ_SP φ_P ∇^ν φ_P + κ_STP Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TS S_{αβ}S^{αβ} + λ_TP φ_P + λ_TPS φ_P S_{αβ}S^{αβ} = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PT φ_T + λ_PS S_{αβ}S^{αβ} + λ_PTS φ_T S_{αβ}S^{αβ} = 0
+
+=== Triplet ('T', 'S', 'A') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_ST φ_T ∇^ν φ_T + κ_SA φ_A ∇^ν φ_A + κ_STA Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TS S_{αβ}S^{αβ} + λ_TA φ_A + λ_TAS φ_A S_{αβ}S^{αβ} = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AT φ_T + λ_AS S_{αβ}S^{αβ} + λ_ATS φ_T S_{αβ}S^{αβ} = 0
+
+=== Triplet ('T', 'H', 'P') ===
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TH φ_H + λ_TP φ_P + λ_THP φ_H φ_P = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HT φ_T + λ_HP φ_P + λ_HTP φ_T φ_P = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PT φ_T + λ_PH φ_H + λ_PTH φ_T φ_H = 0
+
+=== Triplet ('T', 'H', 'A') ===
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TH φ_H + λ_TA φ_A + λ_THA φ_H φ_A = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HT φ_T + λ_HA φ_A + λ_HTA φ_T φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AT φ_T + λ_AH φ_H + λ_ATH φ_T φ_H = 0
+
+=== Triplet ('T', 'P', 'A') ===
+Scalar T: □_g φ_T + m_T^2 φ_T + ξ_T R φ_T + λ_TP φ_P + λ_TA φ_A + λ_TPA φ_P φ_A = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PT φ_T + λ_PA φ_A + λ_PTA φ_T φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AT φ_T + λ_AP φ_P + λ_ATP φ_T φ_P = 0
+
+=== Triplet ('I', 'R', 'S') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SI φ_I ∇^ν φ_I + κ_SR φ_R ∇^ν φ_R + κ_SIR Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IR φ_R + λ_IS S_{αβ}S^{αβ} + λ_IRS φ_R S_{αβ}S^{αβ} = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RI φ_I + λ_RS S_{αβ}S^{αβ} + λ_RIS φ_I S_{αβ}S^{αβ} = 0
+
+=== Triplet ('I', 'R', 'H') ===
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IR φ_R + λ_IH φ_H + λ_IRH φ_R φ_H = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RI φ_I + λ_RH φ_H + λ_RIH φ_I φ_H = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HI φ_I + λ_HR φ_R + λ_HIR φ_I φ_R = 0
+
+=== Triplet ('I', 'R', 'P') ===
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IR φ_R + λ_IP φ_P + λ_IRP φ_R φ_P = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RI φ_I + λ_RP φ_P + λ_RIP φ_I φ_P = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PI φ_I + λ_PR φ_R + λ_PIR φ_I φ_R = 0
+
+=== Triplet ('I', 'R', 'A') ===
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IR φ_R + λ_IA φ_A + λ_IRA φ_R φ_A = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RI φ_I + λ_RA φ_A + λ_RIA φ_I φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AI φ_I + λ_AR φ_R + λ_AIR φ_I φ_R = 0
+
+=== Triplet ('I', 'S', 'H') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SI φ_I ∇^ν φ_I + κ_SH φ_H ∇^ν φ_H + κ_SIH Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IS S_{αβ}S^{αβ} + λ_IH φ_H + λ_IHS φ_H S_{αβ}S^{αβ} = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HI φ_I + λ_HS S_{αβ}S^{αβ} + λ_HIS φ_I S_{αβ}S^{αβ} = 0
+
+=== Triplet ('I', 'S', 'P') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SI φ_I ∇^ν φ_I + κ_SP φ_P ∇^ν φ_P + κ_SIP Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IS S_{αβ}S^{αβ} + λ_IP φ_P + λ_IPS φ_P S_{αβ}S^{αβ} = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PI φ_I + λ_PS S_{αβ}S^{αβ} + λ_PIS φ_I S_{αβ}S^{αβ} = 0
+
+=== Triplet ('I', 'S', 'A') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SI φ_I ∇^ν φ_I + κ_SA φ_A ∇^ν φ_A + κ_SIA Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IS S_{αβ}S^{αβ} + λ_IA φ_A + λ_IAS φ_A S_{αβ}S^{αβ} = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AI φ_I + λ_AS S_{αβ}S^{αβ} + λ_AIS φ_I S_{αβ}S^{αβ} = 0
+
+=== Triplet ('I', 'H', 'P') ===
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IH φ_H + λ_IP φ_P + λ_IHP φ_H φ_P = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HI φ_I + λ_HP φ_P + λ_HIP φ_I φ_P = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PI φ_I + λ_PH φ_H + λ_PIH φ_I φ_H = 0
+
+=== Triplet ('I', 'H', 'A') ===
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IH φ_H + λ_IA φ_A + λ_IHA φ_H φ_A = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HI φ_I + λ_HA φ_A + λ_HIA φ_I φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AI φ_I + λ_AH φ_H + λ_AIH φ_I φ_H = 0
+
+=== Triplet ('I', 'P', 'A') ===
+Scalar I: □_g φ_I + m_I^2 φ_I + ξ_I R φ_I + λ_IP φ_P + λ_IA φ_A + λ_IPA φ_P φ_A = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PI φ_I + λ_PA φ_A + λ_PIA φ_I φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AI φ_I + λ_AP φ_P + λ_AIP φ_I φ_P = 0
+
+=== Triplet ('R', 'S', 'H') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SR φ_R ∇^ν φ_R + κ_SH φ_H ∇^ν φ_H + κ_SRH Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RS S_{αβ}S^{αβ} + λ_RH φ_H + λ_RHS φ_H S_{αβ}S^{αβ} = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HR φ_R + λ_HS S_{αβ}S^{αβ} + λ_HRS φ_R S_{αβ}S^{αβ} = 0
+
+=== Triplet ('R', 'S', 'P') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SR φ_R ∇^ν φ_R + κ_SP φ_P ∇^ν φ_P + κ_SRP Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RS S_{αβ}S^{αβ} + λ_RP φ_P + λ_RPS φ_P S_{αβ}S^{αβ} = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PR φ_R + λ_PS S_{αβ}S^{αβ} + λ_PRS φ_R S_{αβ}S^{αβ} = 0
+
+=== Triplet ('R', 'S', 'A') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SR φ_R ∇^ν φ_R + κ_SA φ_A ∇^ν φ_A + κ_SRA Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RS S_{αβ}S^{αβ} + λ_RA φ_A + λ_RAS φ_A S_{αβ}S^{αβ} = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AR φ_R + λ_AS S_{αβ}S^{αβ} + λ_ARS φ_R S_{αβ}S^{αβ} = 0
+
+=== Triplet ('R', 'H', 'P') ===
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RH φ_H + λ_RP φ_P + λ_RHP φ_H φ_P = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HR φ_R + λ_HP φ_P + λ_HRP φ_R φ_P = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PR φ_R + λ_PH φ_H + λ_PRH φ_R φ_H = 0
+
+=== Triplet ('R', 'H', 'A') ===
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RH φ_H + λ_RA φ_A + λ_RHA φ_H φ_A = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HR φ_R + λ_HA φ_A + λ_HRA φ_R φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AR φ_R + λ_AH φ_H + λ_ARH φ_R φ_H = 0
+
+=== Triplet ('R', 'P', 'A') ===
+Scalar R: □_g φ_R + m_R^2 φ_R + ξ_R R φ_R + λ_RP φ_P + λ_RA φ_A + λ_RPA φ_P φ_A = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PR φ_R + λ_PA φ_A + λ_PRA φ_R φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AR φ_R + λ_AP φ_P + λ_ARP φ_R φ_P = 0
+
+=== Triplet ('S', 'H', 'P') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SH φ_H ∇^ν φ_H + κ_SP φ_P ∇^ν φ_P + κ_SHP Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HS S_{αβ}S^{αβ} + λ_HP φ_P + λ_HPS φ_P S_{αβ}S^{αβ} = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PS S_{αβ}S^{αβ} + λ_PH φ_H + λ_PHS φ_H S_{αβ}S^{αβ} = 0
+
+=== Triplet ('S', 'H', 'A') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SH φ_H ∇^ν φ_H + κ_SA φ_A ∇^ν φ_A + κ_SHA Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HS S_{αβ}S^{αβ} + λ_HA φ_A + λ_HAS φ_A S_{αβ}S^{αβ} = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AS S_{αβ}S^{αβ} + λ_AH φ_H + λ_AHS φ_H S_{αβ}S^{αβ} = 0
+
+=== Triplet ('S', 'P', 'A') ===
+S-gauge:
+  ∇_μ S_{μν}^{μν} = κ_SP φ_P ∇^ν φ_P + κ_SA φ_A ∇^ν φ_A + κ_SPA Ξ^ν
+  ∇_[μ S_{μν}_{νρ]} = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PS S_{αβ}S^{αβ} + λ_PA φ_A + λ_PAS φ_A S_{αβ}S^{αβ} = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AS S_{αβ}S^{αβ} + λ_AP φ_P + λ_APS φ_P S_{αβ}S^{αβ} = 0
+
+=== Triplet ('H', 'P', 'A') ===
+Scalar H: □_g φ_H + m_H^2 φ_H + ξ_H R φ_H + λ_HP φ_P + λ_HA φ_A + λ_HPA φ_P φ_A = 0
+Scalar P: □_g φ_P + m_P^2 φ_P + ξ_P R φ_P + λ_PH φ_H + λ_PA φ_A + λ_PHA φ_H φ_A = 0
+Scalar A: □_g φ_A + m_A^2 φ_A + ξ_A R φ_A + λ_AH φ_H + λ_AP φ_P + λ_AHP φ_H φ_P = 0
